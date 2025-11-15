@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+        .title {
+
+            font-size: 45px;
+            font-weight: bold;
+            color: brown;
+        }
+
+        .mar {
+            text-decoration: none;
+            color: rgb(255, 0, 0);
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Row 1-Logo,Company,icons,welcome,logout-->
+    <div class="row" style="background-color:rgb(156, 48, 89);">
+        <div class="col-1">
+            <img src="insta.png" style="width: 50%;" alt="">
+        </div>
+        <div class="col-4 text-center">
+            <span class="title" style="color: rgb(90, 20, 220);">Instagram</span>
+        </div>
+        <div class="col-3">
+            <a href="https://www.instagram.com/" class="bi bi-instagram"
+                style="color: rgb(90, 20, 220); font-size: 30px;"></a>
+        </div>
+        <div class="col-3" style="color: rgb(90, 20, 220); font-size: 20px;">Welcome.vithya</div>
+        <div class="col-1"><a href="" style="color:rgb(90, 20, 220); font-size: 30px; text-decoration: none;">Logout</a>
+        </div>
+    </div>
+    <!--Row 2 Menu Bar,Search-->
+    <div class="row" style="background-color:rgb(156, 48, 89);">
+        <div class="col-9">
+            <Main>
+                <nav class="navbar navbar-expand-lg ">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">home</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">authorities</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Dropdown link
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </Main>
+        </div>
+        <div class="col-3">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Search the Web" aria-label="Recipient’s username"
+                    aria-describedby="basic-addon2">
+                <span class="input-group-text" id="basic-addon2"><i class="bi bi-google"></i></span>
+            </div>
+        </div>
+    </div>
+    <!--Row 3 Scrolling Text-->
+    <div class="row" style="background-color: rgb(156, 48, 89);">
+        <marquee behavior="" direction="">
+            <a class="mar" href="html13.html">WELCOME TO DORAEMON'S CARTOON WORLD</a>
+            <a class="mar" href="home pages.html"> register here</a>
+        </marquee>
+    </div>
+    <!--Row 4 Sliding Images-->
+    <div style="width:50%;">
+    </div>
+    <div class="row">
+        <div class="row">
+            <div class="col-6">
+                carousel
+            </div>
+            <div class="card col-3 m-0">
+                card 1
+            </div>
+            <div class="card col-3 m-0">
+                card 2
+            </div>
+        </div>
+        <div style="width: 50%;">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="doraemon 5.jfif" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="doraemon2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="doraemon3.webp" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="doraemon 5.jfif" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!--Row 5 Cards-->
+        <div class="row" style="color: rgb(156, 48, 89);  ">
+            <div style="display:flex;">
+                <div class="card" style="width: 18rem;">
+                    <img src="doraemon1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">nobita's zero marks</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                        <a href="#" class="btn btn-primary">hehe</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="doraemon2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">welcome to doraemon world</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                        <a href="#" class="btn btn-primary">go go</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </head>
+
+        <body>
+
+        </body>
+
+</html>
